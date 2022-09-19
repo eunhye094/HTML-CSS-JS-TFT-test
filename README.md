@@ -1,2 +1,2 @@
 # HTML-CSS-JS-TFT-test
-Toy Project - Psychological Test : Teamfight Tactics (TFT)
+Toy Project - Teamfight Tactics(TFT) Psychological Test
