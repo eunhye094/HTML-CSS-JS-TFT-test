@@ -19,7 +19,7 @@
     display: block;
     width: 80%;
 }
-.answerList:hover, .answerList:active{
+.answerList:hover, .answerList:focus{
     background-color: blue;
     color: white;
 }
