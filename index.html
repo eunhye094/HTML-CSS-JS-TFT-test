@@ -8,11 +8,11 @@
         <meta name="description" content="전략적 팀 전투 플레이 유형 테스트">
         
         <!-- sns share -->
-        <meta property="og:url" content=""/>
+        <meta property="og:url" content="https://tft-test.netlify.app"/>
         <meta property="og:title" content="전략적 팀 전투 플레이 유형 테스트"/>
         <meta property="og:type" content="website"/>
         <meta property="og:image" content="img/share.png"/>
-        <meta property="og:description" content="전략적 팀 전투 플레이 유형으로 나와 가장 잘 어울리는 나만의 전략가 찾기"/>
+        <meta property="og:description" content="나와 가장 잘 어울리는 나만의 전략가 찾기"/>
 
         <!--favicon -->
         <link rel="shortcut icon" href="img/favicon.ico">
@@ -28,6 +28,11 @@
         <link href="./css/qna.css" rel="stylesheet">
         <link href="./css/result.css" rel="stylesheet">
         <link href="./css/animation.css" rel="stylesheet">
+        <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+        <script>
+            Kakao.init('8f3cfab1bb31a61484cfede4d85fc193');
+            Kakao.isInitialized();
+        </script>
     </head>
     <body>
         <div class="container">
@@ -60,10 +65,11 @@
                 <div id="resultDesc">
 
                 </div>
-                <button type="button" class="kakao mt-3 px-3 py-3">공유하기</button>
+                <button type="button" class="kakao mt-3 px-3 py-3" onclick="kakaoShare()">공유하기</button>
             </section>
             <script src="./js/data.js" charset="utf-8"></script>
             <script src="./js/start.js" charset="utf-8"></script>
+            <script src="./js/share.js" charset="utf-8"></script>
         </div>
     </body>
 </html>

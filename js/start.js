@@ -40,13 +40,10 @@ function addAnswer(answerText, qIdx, idx){
             goNext(++qIdx);
         }, 450)
     }, false);
-
 }
 
 function setResult(){
     let point = calResult();
-    console.log(select)
-    console.log(point)
 
     const resultName = document.querySelector('#resultName');
     resultName.innerHTML = infoList[point].name;
