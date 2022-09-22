@@ -1,12 +1,12 @@
 const url = 'https://tft-test.netlify.app';
 
 function kakaoShare(){
-    var resultImage = document.querySelector('#resultImg')
-    var resultAlt = resultImg.firstElementChild.alt;
+    var resultImg = document.querySelector('#resultImg')
+    var resultIdx = resultImg.firstElementChild.alt;
     const shareTitle = '전략적 팀 전투 플레이 유형 테스트 결과';
-    const shareDesc = infoList[resultAlt].name;
-    const shareImg = url + '/img/image-' + resultAlt + '.png';
-    const shareURL = url + '/page/result-'+resultAlt+'.html';
+    const shareDesc = resultList[resultIdx].name;
+    const shareImg = url + '/img/image-' + resultIdx + '.png';
+    const shareURL = url + '/page/result-'+ resultIdx + '.html';
     
     Kakao.Share.sendDefault({
         objectType: 'feed',

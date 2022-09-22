@@ -16,7 +16,6 @@
 #resultName{
     font-size: 26px;
 }
-
 #resultDesc{
     font-size: 22px;
 }
@@ -28,7 +27,6 @@
     border-radius: 20px;
     font-size: 20px;
 }
-
 .kakao:hover, .kakao:focus{
     background-color: whitesmoke;
     color: #FEE500; 
